@@ -92,11 +92,11 @@ REACT_APP_API_URL=http://localhost:8080/api
 For backend, configure environment variables in `application.properties` as needed.
 
 ## Deployment
-### Deploy to AWS (
+### Deploy to AWS 
 Frontend : amplify ,
 Backend : elastic Benstalk,
 DataBase : RDS (AWS).
-)
+
 
 
 ## Contributing
