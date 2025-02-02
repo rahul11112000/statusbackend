@@ -9,6 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.oauth2.jwt.JwtClaimsSet;
 import org.springframework.security.oauth2.jwt.JwtEncoder;
 import org.springframework.security.oauth2.jwt.JwtEncoderParameters;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,6 +25,11 @@ public class TokenController {
 	
 	@Autowired
 	UserServices userServices;
+	
+	@GetMapping("/check")
+	public String hello() {
+		return "successfully upload to server";
+	}
 	
 	@PostMapping("/sign-up")
 	public Users signUp(@RequestBody Users user) {

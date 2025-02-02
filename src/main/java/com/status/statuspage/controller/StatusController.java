@@ -37,7 +37,7 @@ public class StatusController {
 	@Autowired
     private SimpMessagingTemplate messagingTemplate;
 	
-	@GetMapping("")
+	@GetMapping("/")
 	public String first() {
 		return "Status Admin";
 	}

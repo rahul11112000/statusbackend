@@ -18,13 +18,13 @@ public class StatusPageApplication {
 @Configuration
 class WebConfig implements WebMvcConfigurer {
 
-    @Override
-    public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**")
-                .allowedOrigins("http://localhost:3000") // No trailing slash
-                .allowedMethods("*") // Allow all HTTP methods
-                .allowedHeaders("*") // Allow all headers
-                .exposedHeaders("*") // Expose all headers
-                .allowCredentials(true); // Allow cookies/auth headers
-    }
+	@Override
+	public void addCorsMappings(CorsRegistry registry) {
+	    registry.addMapping("/**")
+	            .allowedOrigins("http://localhost:3000")  // No trailing slash
+	            .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")  // Explicitly allow methods
+	            .allowedHeaders("*")  // Allow all headers
+	            .exposedHeaders("Authorization", "Content-Type")  // Specify any exposed headers, if necessary
+	            .allowCredentials(true);  // Allow cookies/auth headers
+	}
 }
