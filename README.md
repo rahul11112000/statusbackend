@@ -1,5 +1,5 @@
 # Status Update Project
-## Overview
+## Repo
 **frontend Repo ** https://github.com/rahul11112000/statusfrontend
 ## Overview
 The **Status Update Project** is a web application built using React.js for the frontend and Spring Boot for the backend. It allows users to post and view status updates in real-time. The app provides an intuitive user interface for users to share their thoughts, react to others' updates, and manage their status history.
