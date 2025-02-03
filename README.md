@@ -1,4 +1,7 @@
 # Status Update Project
+## Live Project URL's
+login : http://statusapplicationfrontend.s3-website.ap-south-1.amazonaws.com/
+singup : http://statusapplicationfrontend.s3-website.ap-south-1.amazonaws.com/sign-up
 ## Repo
 **frontend Repo ** https://github.com/rahul11112000/statusfrontend
 ## email and password
