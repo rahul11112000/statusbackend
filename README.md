@@ -28,7 +28,7 @@ The **Status Update Project** is a web application built using React.js for the 
 - **Backend**: Spring Boot, Spring Security, Spring Data JPA
 - **Database**: MySQL / PostgreSQL
 - **Authentication**: JWT Authentication / OAuth2
-- **Deployment**: AWS (Backend)   AWS (Database)  AWS(React But react is not working properly because HTTP and HTTPS request so react is use local machine)
+- **Deployment**: AWS ElasticBeanstalk (Backend)   AWS RDS(Database)  AWS s3 Bucket(React)
 
 
 ## Installation
