@@ -3,8 +3,11 @@
 **frontend Repo ** https://github.com/rahul11112000/statusfrontend
 ## email and password
 Application admin : email: appadmin@gmail.com      password : Rahul@1111
+
 Component admin :   email: comadmin@gmail.com      password : Rahul@1111
+
 status admin :      email: status@gmail.com      password : Rahul@1111
+
 Viewer :            email: viewer@gmail.com      password : Rahul@1111
 
 ## Overview
